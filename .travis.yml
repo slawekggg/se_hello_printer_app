@@ -15,3 +15,8 @@ script:
 after_success:
   - make docker_build
   - make docker_push
+
+deploy:
+  provider: heroku
+  app: arcane-ocean-59910
+  api_key: ${HEROKU_API_KEY}
