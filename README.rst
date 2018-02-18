@@ -1,5 +1,5 @@
 
-.. image:: https://app.statuscake.com/button/index.php?Track=4om8Ld8gkE&Days=1&Design=1
+.. image:: https://app.statuscake.com/button/index.php?Track=qQtNn4J6yp&Days=1&Design=
     :target: https://www.statuscake.com
 
 
