@@ -10,6 +10,11 @@ lint:
 test:
 	PYTHONPATH=. py.test  --verbose -s
 
+test_cov: generacja coverage
+	PYTONPATH=.  py.test --verbose -s --cov=.
+test_xunit: generacja xunit	
+	PYTHONPATH=.  py.test -s --cov=.  --junit-xml=test_results.xml
+
 docker_build:
 	docker build -t hello-world-printer .
 
@@ -28,8 +33,3 @@ docker_push: docker_build
 	docker push $(TAG); \
 	docker logout
 
-test_cov: generacja coverage
-	py.test --verbose -s --cov=.
-
-test_xunit: generacja xunit
-	py.test -s --cov=.  --junit-xml=test_results.xml
