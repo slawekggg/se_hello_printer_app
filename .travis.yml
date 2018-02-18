@@ -10,8 +10,8 @@ install:
   - make deps
 
 script:
+  - make lint  
   - make test_xunit
-  - make lint
   		
 
 after_success:
