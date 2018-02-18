@@ -1,3 +1,8 @@
+
+<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=4om8Ld8gkE&Days=1&Design=1" /></a>
+
+
+
 Simple Flask App
 ================
 
