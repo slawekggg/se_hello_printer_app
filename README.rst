@@ -1,3 +1,12 @@
+
+.. image:: https://app.statuscake.com/button/index.php?Track=qQtNn4J6yp&Days=1&Design=
+    :target: https://www.statuscake.com
+
+
+
+.. image:: https://travis-ci.org/slawekggg/se_hello_printer_app.svg?branch=master
+    :target: https://travis-ci.org/slawekggg/se_hello_printer_app
+
 Simple Flask App
 ================
 
