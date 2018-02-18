@@ -2,7 +2,7 @@
 .. image:: https://app.statuscake.com/button/index.php?Track=4om8Ld8gkE&Days=1&Design=1
     :target: https://www.statuscake.com
 
-<a href="https://www.statuscake.com" title="Website Uptime Monitoring"><img src="https://app.statuscake.com/button/index.php?Track=qQtNn4J6yp&Days=1&Design=1" /></a>
+
 
 .. image:: https://travis-ci.org/slawekggg/se_hello_printer_app.svg?branch=master
     :target: https://travis-ci.org/slawekggg/se_hello_printer_app
