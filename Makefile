@@ -27,4 +27,9 @@ docker_push: docker_build
 	docker tag hello-world-printer $(TAG); \
 	docker push $(TAG); \
 	docker logout
-# comment
+
+test_cov: generacja coverage
+	py.test --verbose -s --cov=.
+
+test_xunit: generacja xunit
+	py.test -s --cov=.  --junit-xml=test_results.xml
