@@ -9,10 +9,7 @@ lint:
 
 test:
 	PYTHONPATH=. py.test  --verbose -s
-
-test_cov: generacja coverage
 	PYTONPATH=.  py.test --verbose -s --cov=.
-test_xunit: generacja xunit	
 	PYTHONPATH=.  py.test -s --cov=.  --junit-xml=test_results.xml
 
 docker_build:
