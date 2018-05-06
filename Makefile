@@ -1,4 +1,5 @@
-.PHONY: test
+#
+.PHONY: test test-api test_api
 
 deps:
 	pip install -r requirements.txt ; \
