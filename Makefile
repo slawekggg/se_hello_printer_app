@@ -13,6 +13,9 @@ test:
 test_cov:
 	PYTHONPATH=. py.test --verbose -s --cov=.
 
+test_api:
+	python test-api/skrypcior.py
+
 test_xunit:
 	PYTHONPATH=. py.test -s --cov=.  --junit-xml=test_results.xml
 
