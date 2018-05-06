@@ -10,4 +10,6 @@ class TestFormater(unittest.TestCase):
         driver = webdriver.Chrome()
         driver.get("http://127.0.0.1:5000/ui")
         time.sleep(10)
+        tekst = driver.find_element_by_xpath('/html/body/h1')
+        self.assertEqual(tekst.text,"Witaj swiecie!!!!!!")
         driver.quit()
