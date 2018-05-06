@@ -1,5 +1,5 @@
 #
-.PHONY: test test-api test_api
+.PHONY: test test-api test_api test_ui
 
 deps:
 	pip install -r requirements.txt ; \
@@ -16,6 +16,9 @@ test_cov:
 
 test_api:
 	python test-api/skrypcior.py
+
+test_ui:
+	py.test test_ui/test_ui.py
 
 test_xunit:
 	PYTHONPATH=. py.test -s --cov=.  --junit-xml=test_results.xml --ignore=test_ui
