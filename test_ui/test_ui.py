@@ -12,4 +12,6 @@ class TestFormater(unittest.TestCase):
 
         tekst = driver.find_element_by_xpath('/html/body/h1')
         self.assertEqual(tekst.text,"Witaj swiecie!!!!!!")
+        im = driver.find_element_by_xpath('//*[@id="imie"]')
+        self.assertEqual(im.text,"Slawomir")
         driver.quit()
