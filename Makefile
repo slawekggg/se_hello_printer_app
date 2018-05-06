@@ -18,7 +18,7 @@ test_api:
 	python test-api/skrypcior.py
 
 test_xunit:
-	PYTHONPATH=. py.test -s --cov=.  --junit-xml=test_results.xml
+	PYTHONPATH=. py.test -s --cov=.  --junit-xml=test_results.xml --ignore=test_ui
 
 docker_build:
 	docker build -t hello-world-printer .
